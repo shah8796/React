@@ -1,0 +1,1195 @@
+.holesection{
+    background-color: #000;
+    color: white;
+    
+    top: 2rem;
+    
+  
+  
+}
+
+.navbar-hole{
+  transition: padding 0.3s, height 0.3s;
+}
+/* .shrunk {
+  padding: 10px 0; 
+  height: 60px;
+} */
+.heading {
+  font-family: 'MontserratAlt1', sans-serif;
+    font-size: 16px;
+    background-color: #000;
+    /* font-style: bold; */
+  }
+  .item{
+    margin-left: 18%;
+    
+  }
+  .logo{
+    margin-left: 15%;
+  }
+.heading1{
+    margin-left: 38%;
+    background-color: #000;
+  }
+.heading2{
+  display: none;
+}
+  /* Add this CSS in your stylesheet */
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Adjust this value to control the line's position */
+  left: 0;
+  width: 0;
+  height: 3px; /* Adjust this value to control the line's thickness */
+  background-color: #F28500; /* Adjust the color as needed */
+  transition: width 0.8s linear; /* Adding the transition for the line width */
+}
+
+.nav-link:hover::before {
+  width: 100%; /* Make the line grow to the full width */
+}
+.nav-link:not(:hover)::before {
+  width: 0; /* Keep the line width at 0 when not hovering */
+}
+
+.welcome {
+  /* font-family: ubuntu; */
+  font-family: 'MontserratAlt1', sans-serif;
+  padding-top: 2%;
+  padding-bottom: 7%;
+  /* padding-left: 25%;
+  padding-right: 25%; */
+  background-image: url("../images/darkforest.jpg");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  
+  
+}
+
+.welcome button {
+  /* width: 270px; */
+  padding: 5px 10px;
+  /* text-align: center; */
+  
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 37px;
+  margin-bottom: 68px;
+  background-color: green;
+  font-family: 'MontserratAlt1', sans-serif;
+  
+}
+.welcome .welcometext {
+  /* font-family: ubuntu; */
+  font-family: 'MontserratAlt1', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.welcome .welcomehover {
+  /* font-family: ubuntu; */
+  font-family: 'MontserratAlt1', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 5%;
+}
+.welcome .welcometitle {
+  /* font-family: ubuntu; */
+  font-family: 'MontserratAlt1', sans-serif;
+  font-size: 45px;
+  font-style: bold;
+  
+  
+  color: #ffffff;
+}
+.collections{
+  background-color: #000;
+  color: #ffffff;
+  
+}
+.collections .collection-title{
+  font-size: 35px;
+  font-weight: 400;
+  
+}
+.trans{
+  transition: width 0.5s ease-in-out;
+}
+.text-transition {
+  position: relative;
+  overflow: hidden;
+  width: 300px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Transition for sliding */
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transitioning-text {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0; /* Start with 0 width */
+  transition: width 0.5s ease-in-out; /* Width transition */
+}
+
+.carousel-item.active .transitioning-text {
+  width: 100%; /* Grow to 100% width */
+}
+.roadmap{
+  background-color: #000;
+  color: #ffffff;
+  position: relative;
+  padding-top: 50px;
+  height: 1000px;
+  
+}
+ .roadmaptitle{
+font-size: 38px;
+ font-family: 'MontserratAlt1', sans-serif;
+ font-weight: 500;
+ /* position: absolute; */
+ background-color: #000;
+  color: #ffffff;
+
+}
+
+.roadmap .ruler {
+  height: 100%;
+  width: 1%;
+  border-left: 1px solid #ffffff;
+  position: absolute;
+  left: 50%; /* Center the line horizontally */
+  top: 0;
+  transform: translateX(-50%); /* Adjust to center the line */
+}
+.carder .carder-title{
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.carder .carder-text{
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.roadmap .circle1{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#ff7733 ;
+  position: absolute;
+  left: 50%; /* Center the line horizontally */
+  top: 0;
+  padding: 1%;
+  
+  margin-top: 37px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .circle2{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#a60404 ;
+  position: absolute;
+  left: 50%; /* Center the line horizontally */
+  top: 22%;
+  padding: 1%;
+  
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .circle3{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#ff7733 ;
+  position: absolute;
+  left: 50%; /* Center the line horizontally */
+  top: 44%;
+  padding: 1%;
+  
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .circle4{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#a60404 ;
+  position: absolute;
+  left: 50%; /* Center the line horizontally */
+  top: 64%;
+  padding: 1%;
+  
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+
+.roadmap .circle5{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#a60404 ;
+  position: absolute;
+  left: 48%; /* Center the line horizontally */
+  top: 88%;
+  padding: 1%;
+  color: #ffffff;
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .inner{
+  position: relative;
+  width: 100%;
+}
+.roadmap .inner2{
+  position: relative;
+  width: 100%;
+  top:65%;
+}
+.roadmap .inner3{
+  position: relative;
+  width: 100%;
+  top:40%;
+}
+.roadmap .inner4{
+  position: relative;
+  width: 100%;
+  top:20%;
+}
+
+
+.roadmap .carder{
+  background: linear-gradient(to right, #7a300b,#ff7733);
+  position: absolute;
+  left: 10%; /* Center the line horizontally */
+  top: 0;
+  padding: 1%;
+  width: 40%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  
+  transform: translateX(-15%);
+}
+.carder .carder-arr{
+  position: absolute;
+  left: 99%; /* Center the line horizontally */
+  bottom:45%;
+}
+.carder .carder-date{
+  background-color: #000;
+  position: absolute;
+  left: 167%;
+  bottom: 60%;
+  padding: 1%;
+  white-space: nowrap;
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.roadmap .carder-2{
+  background: linear-gradient(to right, #2e0804,#de1610);
+  position: absolute;
+  right: -2%; /* Center the line horizontally */
+  margin-top: 555%;
+  padding: 1%;
+  width:40%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  
+  transform: translateX(-15%);
+}
+.carder-2 .carder-arr{
+  position: absolute;
+  right: 98%; /* Center the line horizontally */
+  bottom: 45%;
+}
+.carder-2 .carder-date2{
+  background-color: #000;
+  position: absolute;
+  right: 140%;
+  bottom: 65%;
+  
+  
+  white-space: nowrap;
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.roadmap .carder-3{
+  background: linear-gradient(to right, #7a300b,#ff7733);
+  position: absolute;
+  left: 10%; /* Center the line horizontally */
+  top: 43%;
+  padding: 1%;
+  width:40%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  
+  transform: translateX(-15%);
+}
+.carder-3 .carder-arr{
+  position: absolute;
+  left: 98%; /* Center the line horizontally */
+  bottom: 45%;
+}
+.carder-3 .carder-date3{
+  background-color: #000;
+  position: absolute;
+  left: 167%;
+  bottom: 60%;
+  padding: 1%;
+  white-space: nowrap;
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.roadmap .carder-4{
+  background: linear-gradient(to right,  #2e0804,#de1610);
+  position: absolute;
+  right: -2%; /* Center the line horizontally */
+  top: 63%;
+  padding: 1%;
+  width:40%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  
+  transform: translateX(-15%);
+}
+.carder-4 .carder-arr{
+  position: absolute;
+  right: 98%; /* Center the line horizontally */
+  bottom:45%;
+}
+.carder-4 .carder-date4{
+  background-color: #000;
+  position: absolute;
+  right: 157%;
+  bottom: 60%;
+  padding: 1%;
+  white-space: nowrap;
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.scroller{
+  height: 500px;
+}
+.footer{
+  background-color: #000;
+}
+.footer-title{
+  font-size: 35px;
+  color: #ffffff;
+  
+}
+.sea{
+  background-color: #000;
+}
+.avatar{
+  /* position: relative;
+  left: 50%; */
+  
+  margin-left: 40%;
+  width:20%;
+  height: 20%;
+  border:10px solid rgba(139, 0, 0, 0.8);
+}
+.avatar1{
+  position: relative;
+  display: inline-block;
+}
+.icons{
+  position: absolute;
+  bottom: 9px; /* Adjust the positioning as needed */
+  left: 42%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px; /* Gap between icons */
+  background-color: rgba(72, 85, 99, 0.5); /* Background color for icons */
+  padding: 6%;
+  padding-top: 7%;
+  padding-bottom: 8%;
+  /* width:20%;
+  height: 20%; */
+  border-radius: 50%;
+  display: none;
+}
+.icon{
+  color:#ffffff;
+}
+.avatar1:hover .icons {
+  display: block;
+  animation: fade-right 0.3s linear;
+}
+.pic-descript{
+  font-family: 'MontserratAlt1', sans-serif ;
+  font-size: 18px;
+  color: #ffffff;
+  
+}
+
+.insta{
+  background-color: #ffffff25;
+  padding:8px ;
+  margin-right:3% ;
+  display: block;
+  text-decoration: none;
+  
+  
+ 
+}
+.insta1{
+  background-color: #ffffff25;
+  padding: 8px; 
+  
+  display: block;
+  text-decoration: none;
+  
+}
+.insta .iicon{
+  color:rgba(253,253,253,0.2) ;
+  font-size: 95px;
+  
+}
+.insta1 .iicon{
+  color:rgba(253,253,253,0.2) ;
+  font-size: 95px;
+}
+.insta:hover{
+  
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 20px 10px rgba(255, 255, 255, 0.8) inset, 35px 0 35px rgba(255, 119, 51, 1) inset, -20px 0 20px rgba(43, 168, 5, 1) inset, -35px 0 25px rgba(0, 227, 4, 1) inset;
+    transform: translateY(-5px);
+}
+.insta:hover .iicon{
+  color: #ffffff;
+} 
+.insta1:hover{
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 20px 10px rgba(255, 255, 255, 0.8) inset, 35px 0 35px rgba(255, 119, 51, 1) inset, -20px 0 20px rgba(43, 168, 5, 1) inset, -35px 0 25px rgba(0, 227, 4, 1) inset;
+  transform: translateY(-5px);
+}
+.insta1:hover .iicon{
+  color: #ffffff;
+} 
+.pic-descript .descript2{
+  font-size: 12px;
+  text-align: center;
+}
+
+@keyframes fade-right {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* .avatar:hover{
+
+} */
+
+/* .ruler .ruler-width{
+  width:2px;
+  
+  border-left: 1px solid #ffffff;
+} */
+@font-face {
+  font-family: 'MontserratAlt1';
+  src: url('../fonts/MontserratAlt1-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (max-width:768px) {.heading {
+  display: flex;
+  flex-direction: column;
+}
+.heading1{
+  margin-left: 5%; 
+}
+
+.welcome {
+  font-family: ubuntu;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  padding-left: 5%;
+  /* padding-left: 25%;
+  padding-right: 25%; */
+  background-image: url("../images/darkforest.jpg");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  
+  
+}
+.welcome .butsm{
+  margin-left: 23%;
+}
+.welcome .welcometitle {
+  font-family: ubuntu;
+
+  font-size: x-large;
+  font-style: bold;
+  text-align: center;
+  
+  color: #ffffff;
+}
+.welcome .welcometext {
+  font-family: ubuntu;
+  font-size: 12px;
+  font-weight:300;
+  text-align: center;
+  color: #ffffff;
+}
+.welcome .welcomehover {
+  font-family: ubuntu;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+  padding-bottom: 5%;
+  padding-left: 37%;
+  text-align: center;
+}
+.smscreen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collections .imager{
+  width: 75%;
+  height: 75%;
+  margin-top: 15%;
+}
+.insta .iicon{
+  font-size: 55px;
+}
+.insta1 .iicon{
+  font-size: 55px;
+}
+.roadmap{
+  overflow-x: hidden;
+}
+.roadmap .ruler {
+  height: 1000px;
+  width: 2px;
+  border-left: 1px solid #ffffff;
+  position: absolute;
+  left: 5%; /* Center the line horizontally */
+  top: 0;
+  transform: translateX(-5%); /* Adjust to center the line */
+}
+.carder .carder-title{
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.carder .carder-text{
+  font-family: 'MontserratAlt1', sans-serif;
+}
+.roadmap .circle1{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#ff7733 ;
+  position: absolute;
+  left: 5%; /* Center the line horizontally */
+  top: 0;
+  padding: 1%;
+  
+  margin-top: 37px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .circle2{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#a60404 ;
+  position: absolute;
+  left: 5%; /* Center the line horizontally */
+  top: 22%;
+  padding: 1%;
+  
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .circle3{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#ff7733 ;
+  position: absolute;
+  left: 5%; /* Center the line horizontally */
+  top: 44%;
+  padding: 1%;
+  
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .circle4{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#a60404 ;
+  position: absolute;
+  left: 5%; /* Center the line horizontally */
+  top: 64%;
+  padding: 1%;
+  
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+
+.roadmap .circle5{
+
+  
+  border: 3x solid #ffffff;
+  border-radius: 50%;
+  background-color:#a60404 ;
+  position: absolute;
+  left: 5%; /* Center the line horizontally */
+  top: 88%;
+  padding: 1%;
+  color: #ffffff;
+  margin-top: 28px;
+  
+  transform: translateX(-50%);
+}
+.roadmap .carder{
+  background: linear-gradient(to right, #7a300b,#ff7733);
+  position: absolute;
+  left: 27%; /* Center the line horizontally */
+  top: 0;
+  
+  padding: 1%;
+  width:80%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  
+  transform: translateX(-15%);
+}
+.carder .carder-arr{
+  position: absolute;
+  left: -6%;
+  rotate: 180deg;
+  
+  
+}
+.carder .carder-date{
+  display: none;
+}
+.roadmap .carder-2{
+  background: linear-gradient(to right, #2e0804,#de1610);
+  position: absolute;
+  left:27%; /* Center the line horizontally */
+  top: 21%;
+  padding: 1%;
+  padding-right: 15%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  width:80%;
+  transform: translateX(-15%);
+}
+.carder-2 .carder-arr{
+  position: absolute;
+  right: 97%; /* Center the line horizontally */
+  
+}
+.carder-2 .carder-date2{
+  display: none;
+}
+.roadmap .carder-3{
+  background: linear-gradient(to right, #7a300b,#ff7733);
+  position: absolute;
+  left: 27%; /* Center the line horizontally */
+  top: 43%;
+  padding: 1%;
+  padding-right: 17%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  width: 80%;
+  transform: translateX(-15%);
+}
+.carder-3 .carder-arr{
+  position: absolute;
+  left: -6%; /* Center the line horizontally */
+  rotate: 180deg;
+}
+.carder-3 .carder-date3{
+  display: none;
+}
+.roadmap .carder-4{
+  background: linear-gradient(to right,  #2e0804,#de1610);
+  position: absolute;
+  left: 27%; /* Center the line horizontally */
+  top: 63%;
+  padding: 1%;
+  padding-right: 17%;
+  margin-top: 42px;
+  border-bottom: 1px solid #ffffff;
+  width: 80%;
+  transform: translateX(-15%);
+}
+.carder-4 .carder-arr{
+  position: absolute;
+  right: 97%; /* Center the line horizontally */
+  
+}
+.carder-4 .carder-date4{
+  display: none;
+}}
+/* @media screen and (max-width: 1100px) {
+  .roadmap{
+    overflow-x: hidden;
+  }
+  .roadmap .ruler {
+    height: 1000px;
+    width: 2px;
+    border-left: 1px solid #ffffff;
+    position: absolute;
+    left: 5%; 
+    top: 0;
+    transform: translateX(-5%); 
+  }
+  .carder .carder-title{
+    font-family: 'MontserratAlt1', sans-serif;
+  }
+  .carder .carder-text{
+    font-family: 'MontserratAlt1', sans-serif;
+  }
+  .roadmap .circle1{
+  
+    
+    border: 3x solid #ffffff;
+    border-radius: 50%;
+    background-color:#ff7733 ;
+    position: absolute;
+    left: 1%; 
+    top: 0;
+    padding: 1%;
+    
+    margin-top: 37px;
+    
+    transform: translateX(-50%);
+  }
+  .roadmap .circle2{
+  
+    
+    border: 3x solid #ffffff;
+    border-radius: 50%;
+    background-color:#a60404 ;
+    position: absolute;
+    left: 1%; 
+    top: 22%;
+    padding: 1%;
+    
+    margin-top: 28px;
+    
+    transform: translateX(-50%);
+  }
+  .roadmap .circle3{
+  
+    
+    border: 3x solid #ffffff;
+    border-radius: 50%;
+    background-color:#ff7733 ;
+    position: absolute;
+    left: 1%; 
+    top: 44%;
+    padding: 1%;
+    
+    margin-top: 28px;
+    
+    transform: translateX(-50%);
+  }
+  .roadmap .circle4{
+  
+    
+    border: 3x solid #ffffff;
+    border-radius: 50%;
+    background-color:#a60404 ;
+    position: absolute;
+    left: 1%; 
+    top: 64%;
+    padding: 1%;
+    
+    margin-top: 28px;
+    
+    transform: translateX(-50%);
+  }
+  
+  .roadmap .circle5{
+  
+    
+    border: 3x solid #ffffff;
+    border-radius: 50%;
+    background-color:#a60404 ;
+    position: absolute;
+    left: 1%; 
+    top: 88%;
+    padding: 1%;
+    color: #ffffff;
+    margin-top: 28px;
+    
+    transform: translateX(-50%);
+  }
+  .roadmap .carder{
+    background: linear-gradient(to right, #7a300b,#ff7733);
+    position: absolute;
+    left: 16%; 
+    top: 0;
+    padding: 1%;
+    padding-right: 15%;
+    margin-top: 42px;
+    width: auto;
+    border-bottom: 1px solid #ffffff;
+    
+    transform: translateX(-15%);
+  }
+  .carder .carder-arr{
+    position: absolute;
+    left: -6%;
+    rotate: 180deg;
+    
+    
+  }
+  .carder .carder-date{
+    display: none;
+  }
+  .roadmap .carder-2{
+    background: linear-gradient(to right, #2e0804,#de1610);
+    position: absolute;
+    right: 12%; 
+    top: 21%;
+    padding: 1%;
+    padding-right: 15%;
+    margin-top: 42px;
+    border-bottom: 1px solid #ffffff;
+    
+    transform: translateX(-15%);
+  }
+  .carder-2 .carder-arr{
+    position: absolute;
+    right: 97%; 
+    
+  }
+  .carder-2 .carder-date2{
+    display: none;
+  }
+  .roadmap .carder-3{
+    background: linear-gradient(to right, #7a300b,#ff7733);
+    position: absolute;
+    left: 16%; 
+    top: 43%;
+    padding: 1%;
+    padding-right: 17%;
+    margin-top: 42px;
+    border-bottom: 1px solid #ffffff;
+    
+    transform: translateX(-15%);
+  }
+  .carder-3 .carder-arr{
+    position: absolute;
+    left: -6%; 
+    rotate: 180deg;
+  }
+  .carder-3 .carder-date3{
+    display: none;
+  }
+  .roadmap .carder-4{
+    background: linear-gradient(to right,  #2e0804,#de1610);
+    position: absolute;
+    right: 12%; 
+    top: 63%;
+    padding: 1%;
+    padding-right: 17%;
+    margin-top: 42px;
+    border-bottom: 1px solid #ffffff;
+    
+    transform: translateX(-15%);
+  }
+  .carder-4 .carder-arr{
+    position: absolute;
+    right: 97%; 
+    
+  }
+  .carder-4 .carder-date4{
+    display: none;
+  }
+}  */
+  @media screen and (max-width: 576px) {
+    .heading {
+      display: flex;
+      flex-direction: column;
+    }
+    .heading1{
+      margin-left: 5%; 
+    }
+   
+    .welcome {
+      font-family: ubuntu;
+      padding-top: 50%;
+      padding-bottom: 50%;
+      padding-left: 5%;
+      /* padding-left: 25%;
+      padding-right: 25%; */
+      background-image: url("../images/darkforest.jpg");
+     
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-y: center;
+      
+      
+    }
+    .welcome .butsm{
+      margin-left: 23%;
+    }
+    .welcome .welcometitle {
+      font-family: ubuntu;
+    
+      font-size: x-large;
+      font-style: bold;
+      text-align: center;
+      
+      color: #ffffff;
+    }
+    .welcome .welcometext {
+      font-family: ubuntu;
+      font-size: 12px;
+      font-weight:300;
+      text-align: center;
+      color: #ffffff;
+    }
+    .welcome .welcomehover {
+      font-family: ubuntu;
+      font-size: 12px;
+      font-weight: 300;
+      color: #ffffff;
+      padding-bottom: 5%;
+      padding-left: 37%;
+      text-align: center;
+    }
+    .smscreen{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .collections .imager{
+      width: 75%;
+      height: 75%;
+      margin-top: 15%;
+    }
+    .insta .iicon{
+      font-size: 55px;
+    }
+    .insta1 .iicon{
+      font-size: 55px;
+    }
+    .roadmap{
+      overflow-x: hidden;
+    }
+    .roadmap .ruler {
+      height: 1000px;
+      width: 2px;
+      border-left: 1px solid #ffffff;
+      position: absolute;
+      left: 5%; /* Center the line horizontally */
+      top: 0;
+      transform: translateX(-5%); /* Adjust to center the line */
+    }
+    .carder .carder-title{
+      font-family: 'MontserratAlt1', sans-serif;
+    }
+    .carder .carder-text{
+      font-family: 'MontserratAlt1', sans-serif;
+    }
+    .roadmap .circle1{
+    
+      
+      border: 3x solid #ffffff;
+      border-radius: 50%;
+      background-color:#ff7733 ;
+      position: absolute;
+      left: 5%; /* Center the line horizontally */
+      top: 0;
+      padding: 1%;
+      
+      margin-top: 37px;
+      
+      transform: translateX(-50%);
+    }
+    .roadmap .circle2{
+    
+      
+      border: 3x solid #ffffff;
+      border-radius: 50%;
+      background-color:#a60404 ;
+      position: absolute;
+      left: 5%; /* Center the line horizontally */
+      top: 22%;
+      padding: 1%;
+      
+      margin-top: 28px;
+      
+      transform: translateX(-50%);
+    }
+    .roadmap .circle3{
+    
+      
+      border: 3x solid #ffffff;
+      border-radius: 50%;
+      background-color:#ff7733 ;
+      position: absolute;
+      left: 5%; /* Center the line horizontally */
+      top: 44%;
+      padding: 1%;
+      
+      margin-top: 28px;
+      
+      transform: translateX(-50%);
+    }
+    .roadmap .circle4{
+    
+      
+      border: 3x solid #ffffff;
+      border-radius: 50%;
+      background-color:#a60404 ;
+      position: absolute;
+      left: 5%; /* Center the line horizontally */
+      top: 64%;
+      padding: 1%;
+      
+      margin-top: 28px;
+      
+      transform: translateX(-50%);
+    }
+    
+    .roadmap .circle5{
+    
+      
+      border: 3x solid #ffffff;
+      border-radius: 50%;
+      background-color:#a60404 ;
+      position: absolute;
+      left: 5%; /* Center the line horizontally */
+      top: 88%;
+      padding: 1%;
+      color: #ffffff;
+      margin-top: 28px;
+      
+      transform: translateX(-50%);
+    }
+    .roadmap .carder{
+      background: linear-gradient(to right, #7a300b,#ff7733);
+      position: absolute;
+      left: 27%; /* Center the line horizontally */
+      top: 0;
+      
+      padding: 1%;
+      width:80%;
+      margin-top: 42px;
+      border-bottom: 1px solid #ffffff;
+      
+      transform: translateX(-15%);
+    }
+    .carder .carder-arr{
+      position: absolute;
+      left: -6%;
+      rotate: 180deg;
+      
+      
+    }
+    .carder .carder-date{
+      display: none;
+    }
+    .roadmap .carder-2{
+      background: linear-gradient(to right, #2e0804,#de1610);
+      position: absolute;
+      left:27%; /* Center the line horizontally */
+      top: 21%;
+      padding: 1%;
+      padding-right: 15%;
+      margin-top: 42px;
+      border-bottom: 1px solid #ffffff;
+      
+      transform: translateX(-15%);
+    }
+    .carder-2 .carder-arr{
+      position: absolute;
+      right: 97%; /* Center the line horizontally */
+      
+    }
+    .carder-2 .carder-date2{
+      display: none;
+    }
+    .roadmap .carder-3{
+      background: linear-gradient(to right, #7a300b,#ff7733);
+      position: absolute;
+      left: 27%; /* Center the line horizontally */
+      top: 43%;
+      padding: 1%;
+      padding-right: 17%;
+      margin-top: 42px;
+      border-bottom: 1px solid #ffffff;
+      
+      transform: translateX(-15%);
+    }
+    .carder-3 .carder-arr{
+      position: absolute;
+      left: -6%; /* Center the line horizontally */
+      rotate: 180deg;
+    }
+    .carder-3 .carder-date3{
+      display: none;
+    }
+    .roadmap .carder-4{
+      background: linear-gradient(to right,  #2e0804,#de1610);
+      position: absolute;
+      left: 27%; /* Center the line horizontally */
+      top: 63%;
+      padding: 1%;
+      padding-right: 17%;
+      margin-top: 42px;
+      border-bottom: 1px solid #ffffff;
+      
+      transform: translateX(-15%);
+    }
+    .carder-4 .carder-arr{
+      position: absolute;
+      right: 97%; /* Center the line horizontally */
+      
+    }
+    .carder-4 .carder-date4{
+      display: none;
+    }
+  }
+
+ 
